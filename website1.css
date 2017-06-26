@@ -1,0 +1,100 @@
+* {
+	/*reset css profiles*/
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	vertical-align:baseline;
+}
+
+#nav{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    background-color: #64b5f6;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+li{
+	float: left;
+	text-align: center;
+}
+
+a{
+	float: center;
+	display: inline-block;
+	margin-left: 0px;
+	padding: 5px;
+	padding-right: 25px;
+	padding-left: 25px;
+	background-color: #64b5f6;
+	color: #182886;
+	text-align: center;
+	font-size: 18px;
+	text-decoration:none;
+	font-family:sans-serif
+}
+
+li a:hover{
+	color: #000010;
+}
+
+div.background{
+	background-color: #1055AA;
+	height: 1000px;
+}
+
+div.parallax{
+	background-image: url("goldenBridge.jpeg"); /*hey guys this is comments in css*/
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 600px;
+}
+
+div.contents{
+	background-color: #519FFF;
+	height: 50px;
+	width: 100%;
+}
+
+div.text{
+	font-size: 16px;
+	text-align: center;				
+	background-color: #1055AA;
+	padding: 10px;
+	color: #ffddaa;
+	font-style: bold;
+	background-position: top;
+}
+
+div.night{
+	background-image: url("night.jpg");
+	background-position: center;
+	background-size: cover;
+	min-height: 600px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position : static;
+}
+
+div.day{
+	background-image: url("day.jpg");
+	background-position: center;
+	background-size: cover;
+	min-height: 600px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+div.footer{
+	background-color: #00257A;
+	font-size: 10px;
+	color: #64b5f6;
+	text-align: center;
+	padding-top: 10px;
+}
