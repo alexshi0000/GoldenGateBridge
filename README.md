@@ -1,2 +1,2 @@
-#GoldenGateBridge
+GoldenGateBridge
 weird website
