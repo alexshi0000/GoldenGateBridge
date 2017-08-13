@@ -11,11 +11,12 @@
 	list-style-type: none;
 	margin: 0;
     padding: 0;
-    background-color: #64b5f6;
+    background-color: #94C5E9;
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
+    box-shadow: 0px 5px 40px #222222;
 }
 
 li{
@@ -30,16 +31,22 @@ a{
 	padding: 5px;
 	padding-right: 25px;
 	padding-left: 25px;
-	background-color: #64b5f6;
+	background-color: #94C5E9;
 	color: #182886;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	text-decoration:none;
 	font-family:sans-serif
 }
 
-li a:hover{
+li a:hover{						/*a list hover*/
 	color: #000010;
+	text-decoration: underline;
+}
+
+a.current{
+	color: #000000;
+	text-decoration: underline;
 }
 
 div.background{
@@ -48,17 +55,17 @@ div.background{
 }
 
 div.parallax{
-	background-image: url("goldenBridge.jpeg"); /*hey guys this is comments in css*/
+	background-image: url("images/goldenBridge.jpeg"); 
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	min-height: 600px;
+	min-height: 650px;
 }
 
 div.contents{
 	background-color: #519FFF;
-	height: 50px;
+	height: 90px;
 	width: 100%;
 }
 
@@ -66,27 +73,27 @@ div.text{
 	font-size: 16px;
 	text-align: center;				
 	background-color: #1055AA;
-	padding: 10px;
+	padding: 50px;
 	color: #ffddaa;
 	font-style: bold;
 	background-position: top;
 }
 
 div.night{
-	background-image: url("night.jpg");
+	background-image: url("images/night.jpg");
 	background-position: center;
 	background-size: cover;
-	min-height: 600px;
+	min-height: 650px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	position : static;
 }
 
 div.day{
-	background-image: url("day.jpg");
+	background-image: url("images/day.jpg");
 	background-position: center;
 	background-size: cover;
-	min-height: 600px;
+	min-height: 650px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
