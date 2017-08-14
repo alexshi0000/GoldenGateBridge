@@ -1,3 +1,4 @@
 # GoldenGateBridge
 My first website/learning tool. Parallax scrolling was done in css instead of js, only a little bit buggy. 
-[alt_text](https://github.com/alexshi0000/GoldenGateBridge/blob/master/images/screen-shot-1.png)
+
+[!alt_text](https://github.com/alexshi0000/GoldenGateBridge/blob/master/images/screen-shot-1.png)
