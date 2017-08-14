@@ -1,0 +1,147 @@
+* {
+	/*reset*/
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	vertical-align : baseline;
+}
+
+li{
+	float: left;
+	text-align: center;
+	padding: 0.5%;
+	padding-left: 1.75%;
+}
+
+a{
+	float: center;
+	display: inline-block;
+	background-color: #BDDFFF;
+	color: #00000065;
+	text-align: center;
+	font-size: 100%;
+	text-decoration : none;
+	font-family : sans-serif;
+}
+
+::-webkit-scrollbar {			/*for chrome*/
+    display: none; 
+}
+
+/*removed a :hover, switched to js animation*/
+
+#PreloadedImages
+{
+    width: 0px;
+    height: 0px;
+    display: inline;
+    background-image: url(path/to/image1.png);
+    background-image: url(path/to/image2.png);
+    background-image: url(path/to/image3.png);
+    background-image: url(path/to/image4.png);
+    background-image: url();
+
+}
+
+#Nav{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    background-color: #BDDFFF;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 5px 40px #222222;
+}
+
+#Heading{
+	font-size: 240%; 
+	padding: 1.4%;
+}
+
+#Title{
+	margin-top:1.5%;
+}
+
+#InternalLink{
+	background-color:#00257A; 
+	color:#ffddaa; 
+	font-size: 13px; 
+	text-decoration: underline;
+	text-align: center;
+	align-self: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#Copyright{
+	font-size: 11px; 
+	color:#ffddaa; 
+	margin-top:0px;
+}
+
+a.Current{
+	/*nothing*/
+}
+
+div.SubHeading{
+	font-size: 22;
+}
+
+div.Background{
+	background-color: #1055AA;
+	height: 100%;
+	min-height: 1000px;
+}
+
+div.Parallax{
+	background-image: url("images/bridgeNice.jpg"); 
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 800%;
+}
+
+div.Contents{
+	background-color: #519FFF;
+	height: 90px;
+	width: 100%;
+}
+
+div.Text{
+	font-size: 100%;
+	text-align: center;				
+	background-color: #1055AA;
+	padding: 2.25%;
+	color: #ffddaa;
+	font-style: bold;
+	background-position: top;
+}
+
+div.Night{
+	background-image: url("images/night.jpg");
+	background-position: center;
+	background-size: cover;
+	min-height: 800%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position : static;
+}
+
+div.Day{
+	background-image: url("images/day.jpg");
+	background-position: center;
+	background-size: cover;
+	min-height: 800%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+div.Footer{
+	background-color: #00257A;
+	font-size: 20%;			/*pad*/
+	color: #64b5f6;
+	text-align: center;
+	padding-top: 0.4%;
+}

@@ -1,51 +1,50 @@
 <!Doctype html>
 <html>
 	<head>
-		<title>San Fransisco</title>
-		<link rel= "stylesheet" href="website1.css">	
+		<title>San Fransisco Tour Guide</title>
+		<link rel= "stylesheet" href="MainPage.css">	
+		<script type="text/javascript" src="MainPage.js"></script>
 	</head>
-	<body>
-		<ul id="nav">
-			<li><a href="website1.html" class="current">Home</a></li>
-			<li><a href="link1.html" onclick="animateLoading()">About</a></li>
-			<li><a href="link2.html">Gallery</a></li>
-			<li><a href="link3.html">Contact</a></li>
-			<li><a href="link4.html" target = "_blank">More Information</a></li>
+	<body id="PreloadedImages">
+		<ul id="Nav">
+			<li><a onmouseover = "HoverAnimation(this)" onmouseout = "OutAnimation(this)" class = "Current" href="MainPage.html">Home</a></li>
+			<li><a onmouseover = "HoverAnimation(this)" onmouseout = "OutAnimation(this)" href="About.html">About</a></li>
+			<li><a onmouseover = "HoverAnimation(this)" onmouseout = "OutAnimation(this)" href="Contact.html" class = "Current" id = "Contact">Contact</a></li>
 		</ul>
-		<div class="contents">
+		<div class="Contents">
 			<br>
-			<div class="text" id="heading" style="font-size:35px; padding:25px">	
-				<p style = "margin-top:10px">
+			<div class="Text" id="Heading">	
+				<p id="Title">
 					San Fransisco Tour Guide
 				</p>
 			</div>
-			<div class="night" title="Golden Gate Bridge, San Fransisco"></div>
-			<div class="text">			
-				<p style = "font-size: 22px">About the Bridge</p><br>
+			<div onmouseover = "ZoomIn(this)" onmouseout = "ZoomOut(this)" class="Night" title="San Fransisco"></div>
+			<div class="Text">			
+				<p class = "SubHeading">About the Bridge</p><br>
 				<p>
 					The Golden Gate Bridge is a suspension bridge spanning the Golden Gate strait, the one-mile-wide channel between San Francisco Bay and the Pacific Ocean. The structure links the American city of San Francisco.
 					The bridge commission hid the design from the public for a year (though Strauss was drumming up support for the bridge using his design during that time). When they did reveal it, the public wasn’t pleased. The local press called the design ugly, and one writer described it as “a ponderous, blunt bridge that combined a heavy tinker toy frame at each end with a short suspension span. It seemed to strain its way across the Golden Gate” [PDF].
 				</p>
 			</div>
-			<div class="parallax" title="Golden Colored Bridge"></div>          <!--parallax scrolling-->
-			<div class="text">   
-				<p style = "font-size: 22px">Engineer's Perspective</p> 	<!---->    <br>            	
+			<div onmouseover = "ZoomIn(this)" onmouseout = "ZoomOut(this)" class="Parallax" title="Golden-Colored Bridge"></div>          <!--parallax scrolling-->
+			<div class="Text">   
+				<p class = "SubHeading">Engineer's Perspective</p> 	<!---->    <br>            	
 				<p>
 					The Frommers travel guide describes the Golden Gate Bridge as "possibly the most beautiful, certainly the most photographed, bridge in the world."[8] It opened in 1937 and was, until 1964, the longest suspension bridge main span in the world, at 4,200 feet (1,300 m). Three years after completing the transcontinental railroad, Charles Crocker, a railroad executive, made a presentation to the Marin County Board of Supervisors in which he laid out plans for a bridge that would span the Golden Gate Strait, the entrance to the ocean from San Francisco Bay. (The strait was named Chrysopylae, Greek for “golden gate,” by U.S. Army Captain John Fremont in 1846.) Many didn’t believe it could be done: At its narrowest point, the strait was still more than a mile wide, with turbulent currents ranging from 4.5 to 7.5 knots. The project wouldn’t be seriously considered until 1919, when the San Francisco Board of Supervisors had the city’s engineer, Michael O’Shaughnessy, do a study to determine the feasibility of a bridge. The initial results estimated that constructing a bridge would cost $100 million.
 				</p>
 			</div>
-			<div class="day" title="Beautiful night time scenery"></div>
-			<div class="text">                    
-				<p style = "font-size: 22px">Wartime History</p><br>
+			<div onmouseover = "ZoomIn(this)" onmouseout = "ZoomOut(this)" class="Day" title="Night Scene"></div>
+			<div class="Text">                    
+				<p class = "SubHeading">Wartime History</p><br>
 				<p>
 					Because the War Department owned the land on both sides of the strait, it had to authorize the construction of the bridge. A temporary construction permit was granted on December 24, 1924, and a final permit was issued on August 11, 1930. The engineer hired Charles A. Ellis, author of Essentials in the Theory of Framed Structures, in 1922. Ellis’s job would be to oversee bridge design and supervise construction. In 1925, he and Strauss brought Harvard University’s George F. Swain and Leon S. Moisseff, designer of New York City’s Manhattan Bridge, on as consultants. By the end of 1929, the team had switched from Strauss’s initial design to a suspension bridge designed by Moisseff. According to Purdue University, Ellis’s work “included performing thousands of calculations for the bridge, writing specifications for ten bridge construction contracts, and supervising the test boring and siting, which involved the complicated process of locating firm footing on the Marin shore.” He did his job tirelessly for three years, including spending several months figuring out the complex calculations with Moisseff.
 				</p>
 			</div>
-			<div class = "footer">
-				<a style = "background-color:#00257A; color:#ffddaa; font-size: 14px; font-weight: bold" href="website1.html"> back to top </a>
+			<div class = "Footer">
+				<a id = "InternalLink" href="MainPage.html"> back to top </a>
 			</div>
-			<div class = "footer">
-				<p style = "font-size: 11px; color:#ffddaa; margin-top:5px";> COPYRIGHT 2016 RIGHTS RESERVED </p>
+			<div class = "Footer">
+				<p id = "Copyright"> COPYRIGHT 2017 RIGHTS RESERVED </p>
 				<br>
 			</div>
 		</div>
